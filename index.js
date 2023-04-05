@@ -1,5 +1,5 @@
 const sessionName = "dreaded1";
-const donet = "https://github.com/Fortunatusmokaya/DREADED-AI";
+const donet = "https://github.com/princemaster1/DREADED-AI";
 const owner = ["254114018035"]; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
@@ -139,7 +139,7 @@ async function startHisoka() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("DREADED-AI", {
+      figlet.textSync("PRINCE-AI", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",

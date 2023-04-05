@@ -55,7 +55,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
     let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
 
     if (isCmd2 && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ DREADED-AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ PRINCE-AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (isCmd2 && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -73,23 +73,23 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         case "help":
         case "menu":
 
-          m.reply(`ṔṘḬṄḈḘ ḀḬ\n\nHello ${m.pushName}, This is 𝐴𝑖 𝐶ℎ𝑎𝑡𝑏𝑜𝑡, A WhatsApp bot that uses OpenAi API to process natural language queries and present information through a WhatsApp chat\n\nNote that information presented is not 100% accurate!\n\nIt uses 2 commands as listed below!
+          m.reply(`ṔṘḬṄḈḘ ḀḬ 🌚🇰🇪\n\nHello ${m.pushName}, This is an 𝐴𝑖 𝐶ℎ𝑎𝑡𝑏𝑜𝑡, A WhatsApp bot that uses OpenAi API to process natural language queries and present information through a WhatsApp chat\n\nNote that information presented is not 100% accurate!\n\nIt uses 2 commands as listed below!
             
 CHATBOT COMMANDS
 1) ${prefix}g
-This is for machine based AI responses in form of text. 
+This is for machine based AI responses in form of text🙂. 
 
 AI-GENERATED IMAGE
 2) ${prefix}img
 This will produce ai-based image according to your query
 
 
-To deploy this kind of bot, Use the GitHub Repository below\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nWant your own bot of this kind? Contact and message the numbers below:\n\nwa.me/+254768371432\n\nwa.me/+254774804687\n\nThank You 🌚`)
+To deploy this kind of bot, Use the GitHub Repository below\n\nhttps://github.com/princemaster1/DREADED-GPT-AI\n\nWant your own bot of this kind? Contact and message the numbers below:\n\nwa.me/+254768371432\n\nwa.me/+254774804687\n\nThank You 🌚`)
           break;
         case "g": case "openai": 
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("I need an openAi API key");
-            if (!text) return reply(`This is Dreaded AI chatbot using Chatgpt API to create almost natural language response to your queries\n\nExample:\n${prefix}${command} Write a three paragraph history about Kenya`);
+            if (!text) return reply(`This is Prince AI chatbot using Chatgpt API to create almost natural language response to your queries\n\nExample:\n${prefix}${command} Write a three paragraph history about Kenya`);
             const configuration = new Configuration({
               apiKey: setting.keyopenai,
             });

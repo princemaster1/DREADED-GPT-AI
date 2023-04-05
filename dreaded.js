@@ -73,7 +73,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         case "help":
         case "menu":
 
-          m.reply(`𝘿𝙍𝙀𝘼𝘿𝙀𝘿 𝘾𝙃𝘼𝙏𝘽𝙊𝙏 𝘼𝙄\n\nHello ${m.pushName}, This is 𝐷𝑟𝑒𝑎𝑑𝑒𝑑 𝐴𝑖 𝐶ℎ𝑎𝑡𝑏𝑜𝑡, A WhatsApp bot that uses OpenAi API to process natural language queries and present information through a WhatsApp chat\n\nNote that information presented is not 100% accurate!\n\nIt uses 2 commands as listed below!
+          m.reply(`ṔṘḬṄḈḘ ḀḬ\n\nHello ${m.pushName}, This is 𝐴𝑖 𝐶ℎ𝑎𝑡𝑏𝑜𝑡, A WhatsApp bot that uses OpenAi API to process natural language queries and present information through a WhatsApp chat\n\nNote that information presented is not 100% accurate!\n\nIt uses 2 commands as listed below!
             
 CHATBOT COMMANDS
 1) ${prefix}g
@@ -84,12 +84,12 @@ AI-GENERATED IMAGE
 This will produce ai-based image according to your query
 
 
-To deploy this kind of bot, Use the GitHub Repository below\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nWant your own bot of this kind? Contact and message the numbers below:\n\nwa.me/+254114018035\n\nwa.me/+97693127111\n\nThank You 🤖`)
+To deploy this kind of bot, Use the GitHub Repository below\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nWant your own bot of this kind? Contact and message the numbers below:\n\nwa.me/+254768371432\n\nwa.me/+254774804687\n\nThank You 🌚`)
           break;
         case "g": case "openai": 
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("I need an openAi API key");
-            if (!text) return reply(`This is Dreaded AI chatbot using Chatgpt API to create almost natural language response to your queries\n\nExample:\n${prefix}${command} Write for me a poem about money`);
+            if (!text) return reply(`This is Dreaded AI chatbot using Chatgpt API to create almost natural language response to your queries\n\nExample:\n${prefix}${command} Write a three paragraph history about Kenya`);
             const configuration = new Configuration({
               apiKey: setting.keyopenai,
             });
